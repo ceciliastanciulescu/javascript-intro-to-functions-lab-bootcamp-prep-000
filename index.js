@@ -19,10 +19,10 @@ function sayHiToGrandma(string) {
   if (string.toLowerCase(string) === string) {
     return cantUnswer;
   }
-  if (string.toUpperCase(string) === string) {
+  else if (string.toUpperCase(string) === string) {
     return yesUnswer;
   }
-  if ("I love you, Grandma." === string) {
+  else if ("I love you, Grandma." === string) {
     return loveUnswer;
   }
 }
